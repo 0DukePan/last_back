@@ -1,0 +1,312 @@
+{"level":"info","message":"User found/created by number: 0777218086, ID=680401e6349821335021d59b","service":"food-delivery-api","timestamp":"2025-04-21 16:24:38"}
+{"level":"info","message":"OTP generated for 0777218086 (213): 985149","service":"food-delivery-api","timestamp":"2025-04-21 16:24:38"}
+{"level":"info","message":"SMS sent successfully to 2130777218086","service":"food-delivery-api","timestamp":"2025-04-21 16:24:39"}
+{"level":"info","message":"User found/created by number: 0657615331, ID=6802f0cb6268dbd6e0f5d1e8","service":"food-delivery-api","timestamp":"2025-04-21 16:25:09"}
+{"level":"info","message":"OTP generated for 0657615331 (213): 383362","service":"food-delivery-api","timestamp":"2025-04-21 16:25:09"}
+{"level":"info","message":"SMS sent successfully to 2130657615331","service":"food-delivery-api","timestamp":"2025-04-21 16:25:09"}
+{"level":"info","message":"User found/created by number: 0558901957, ID=68065593349821335021d5af","service":"food-delivery-api","timestamp":"2025-04-21 16:26:27"}
+{"level":"info","message":"OTP generated for 0558901957 (213): 670093","service":"food-delivery-api","timestamp":"2025-04-21 16:26:27"}
+{"level":"info","message":"SMS sent successfully to 2130558901957","service":"food-delivery-api","timestamp":"2025-04-21 16:26:27"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-21 16:42:35","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"info","message":"User found/created by number: 0558901957, ID=68065593349821335021d5af","service":"food-delivery-api","timestamp":"2025-04-21 16:42:36"}
+{"level":"info","message":"OTP generated for 0558901957 (213): 905292","service":"food-delivery-api","timestamp":"2025-04-21 16:42:36"}
+{"level":"warn","message":"SMS failed to send to 0558901957: \"vonage is not defined\"","service":"food-delivery-api","timestamp":"2025-04-21 16:42:36"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 495ms","service":"food-delivery-api","timestamp":"2025-04-21 16:42:36"}
+{"level":"info","message":"User found/created by number: 0558901957, ID=68065593349821335021d5af","service":"food-delivery-api","timestamp":"2025-04-21 16:43:12"}
+{"level":"info","message":"OTP generated for 0558901957 (213): 006198","service":"food-delivery-api","timestamp":"2025-04-21 16:43:13"}
+{"level":"info","message":"SMS sent successfully to 2130558901957","service":"food-delivery-api","timestamp":"2025-04-21 16:43:13"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 00:44:53","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 400 - 9ms","service":"food-delivery-api","timestamp":"2025-04-22 00:44:53"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 00:50:23","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 400 - 13ms","service":"food-delivery-api","timestamp":"2025-04-22 00:50:23"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 00:54:11","userAgent":"PostmanRuntime/7.43.3"}
+{"error":"deviceInfo is not defined","level":"error","message":"Send OTP error:","service":"food-delivery-api","stack":"ReferenceError: deviceInfo is not defined\n    at sendOTP (file:///C:/back/controllers/auth.controller.js:114:15)\n    at Layer.handle [as handle_request] (C:\\back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\back\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at file:///C:/back/middlewares/auth.validator.js:41:7\n    at Layer.handle [as handle_request] (C:\\back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\back\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at middleware (C:\\back\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-22 00:54:11"}
+{"level":"debug","message":"POST /api/auth/send-otp 500 - 13ms","service":"food-delivery-api","timestamp":"2025-04-22 00:54:11"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/register","service":"food-delivery-api","timestamp":"2025-04-22 00:54:48","userAgent":"PostmanRuntime/7.43.3"}
+{"error":"deviceInfo is not defined","level":"error","message":"Registration error:","service":"food-delivery-api","stack":"ReferenceError: deviceInfo is not defined\n    at register (file:///C:/back/controllers/auth.controller.js:435:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-22 00:54:48"}
+{"level":"debug","message":"POST /api/auth/register 500 - 181ms","service":"food-delivery-api","timestamp":"2025-04-22 00:54:48"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/register","service":"food-delivery-api","timestamp":"2025-04-22 00:55:03","userAgent":"PostmanRuntime/7.43.3"}
+{"error":"deviceInfo is not defined","level":"error","message":"Registration error:","service":"food-delivery-api","stack":"ReferenceError: deviceInfo is not defined\n    at register (file:///C:/back/controllers/auth.controller.js:435:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-22 00:55:03"}
+{"level":"debug","message":"POST /api/auth/register 500 - 201ms","service":"food-delivery-api","timestamp":"2025-04-22 00:55:03"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 00:55:41","userAgent":"PostmanRuntime/7.43.3"}
+{"error":"deviceInfo is not defined","level":"error","message":"Send OTP error:","service":"food-delivery-api","stack":"ReferenceError: deviceInfo is not defined\n    at sendOTP (file:///C:/back/controllers/auth.controller.js:114:15)\n    at Layer.handle [as handle_request] (C:\\back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\back\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at file:///C:/back/middlewares/auth.validator.js:41:7\n    at Layer.handle [as handle_request] (C:\\back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\back\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at middleware (C:\\back\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-22 00:55:41"}
+{"level":"debug","message":"POST /api/auth/send-otp 500 - 6ms","service":"food-delivery-api","timestamp":"2025-04-22 00:55:41"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 00:57:46","userAgent":"PostmanRuntime/7.43.3"}
+{"error":"deviceInfo is not defined","level":"error","message":"Send OTP error:","service":"food-delivery-api","stack":"ReferenceError: deviceInfo is not defined\n    at sendOTP (file:///C:/back/controllers/auth.controller.js:114:15)\n    at Layer.handle [as handle_request] (C:\\back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\back\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at file:///C:/back/middlewares/auth.validator.js:41:7\n    at Layer.handle [as handle_request] (C:\\back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\back\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at middleware (C:\\back\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-22 00:57:46"}
+{"level":"debug","message":"POST /api/auth/send-otp 500 - 15ms","service":"food-delivery-api","timestamp":"2025-04-22 00:57:46"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:01:22","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 1179ms","service":"food-delivery-api","timestamp":"2025-04-22 01:01:23"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:13:36","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 1499ms","service":"food-delivery-api","timestamp":"2025-04-22 01:13:37"}
+{"ip":"::1","level":"debug","message":"GET /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:20:46","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"GET /api/auth/verify-otp 404 - 6ms","service":"food-delivery-api","timestamp":"2025-04-22 01:20:46"}
+{"ip":"::1","level":"debug","message":"GET /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:21:25","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"GET /api/auth/verify-otp 404 - 2ms","service":"food-delivery-api","timestamp":"2025-04-22 01:21:25"}
+{"ip":"::1","level":"debug","message":"GET /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:22:35","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"GET /api/auth/verify-otp 404 - 4ms","service":"food-delivery-api","timestamp":"2025-04-22 01:22:35"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:22:41","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/verify-otp 400 - 152ms","service":"food-delivery-api","timestamp":"2025-04-22 01:22:41"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:22:46","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 828ms","service":"food-delivery-api","timestamp":"2025-04-22 01:22:47"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:22:56","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/verify-otp 400 - 247ms","service":"food-delivery-api","timestamp":"2025-04-22 01:22:57"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:30:09","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 1459ms","service":"food-delivery-api","timestamp":"2025-04-22 01:30:11"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:30:24","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/verify-otp 400 - 280ms","service":"food-delivery-api","timestamp":"2025-04-22 01:30:24"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/register","service":"food-delivery-api","timestamp":"2025-04-22 01:37:03","userAgent":"PostmanRuntime/7.43.3"}
+{"error":"deviceInfo is not defined","level":"error","message":"Registration error:","service":"food-delivery-api","stack":"ReferenceError: deviceInfo is not defined\n    at register (file:///C:/back/controllers/auth.controller.js:475:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-22 01:37:04"}
+{"level":"debug","message":"POST /api/auth/register 500 - 197ms","service":"food-delivery-api","timestamp":"2025-04-22 01:37:04"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:37:07","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 1269ms","service":"food-delivery-api","timestamp":"2025-04-22 01:37:09"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:37:25","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/verify-otp 400 - 356ms","service":"food-delivery-api","timestamp":"2025-04-22 01:37:26"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/register","service":"food-delivery-api","timestamp":"2025-04-22 01:44:00","userAgent":"PostmanRuntime/7.43.3"}
+{"error":"deviceInfo is not defined","level":"error","message":"Registration error:","service":"food-delivery-api","stack":"ReferenceError: deviceInfo is not defined\n    at register (file:///C:/back/controllers/auth.controller.js:473:23)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-04-22 01:44:01"}
+{"level":"debug","message":"POST /api/auth/register 500 - 1074ms","service":"food-delivery-api","timestamp":"2025-04-22 01:44:01"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/register","service":"food-delivery-api","timestamp":"2025-04-22 01:46:00","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"info","message":"Attempting to send OTP email to: 0657615331","service":"food-delivery-api","timestamp":"2025-04-22 01:46:01"}
+{"level":"error","message":"Error sending verification email: Error: address is invalid in 'to' 0","service":"food-delivery-api","stack":"Error: Error sending verification email: Error: address is invalid in 'to' 0\n    at sendVerificationEmail (file:///C:/back/services/mailtrap/emails.js:20:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async sendOTP (file:///C:/back/services/mailtrap/emailService.js:15:5)\n    at async register (file:///C:/back/controllers/auth.controller.js:500:19)","timestamp":"2025-04-22 01:46:01","to":"0657615331"}
+{"level":"warn","message":"SMS failed to send to 0657615331: \"Error sending verification email: Error: address is invalid in 'to' 0\"","service":"food-delivery-api","timestamp":"2025-04-22 01:46:01"}
+{"email":"idukepan@gmail.com","level":"info","message":"New user registered","mobileNumber":"0657615331","service":"food-delivery-api","timestamp":"2025-04-22 01:46:01","userId":"6806d8b87ade48ceebbbf2e5"}
+{"level":"debug","message":"POST /api/auth/register 201 - 1120ms","service":"food-delivery-api","timestamp":"2025-04-22 01:46:01"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:46:12","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 814ms","service":"food-delivery-api","timestamp":"2025-04-22 01:46:13"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:46:24","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/verify-otp 400 - 344ms","service":"food-delivery-api","timestamp":"2025-04-22 01:46:25"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:47:18","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/verify-otp 400 - 1193ms","service":"food-delivery-api","timestamp":"2025-04-22 01:47:19"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:47:35","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 956ms","service":"food-delivery-api","timestamp":"2025-04-22 01:47:36"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:48:27","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/verify-otp 400 - 167ms","service":"food-delivery-api","timestamp":"2025-04-22 01:48:27"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:48:48","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 1132ms","service":"food-delivery-api","timestamp":"2025-04-22 01:48:49"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:49:07","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/verify-otp 400 - 340ms","service":"food-delivery-api","timestamp":"2025-04-22 01:49:08"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:52:44","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 1060ms","service":"food-delivery-api","timestamp":"2025-04-22 01:52:45"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:52:55","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"--- Verifying OTP ---","service":"food-delivery-api","timestamp":"2025-04-22 01:52:55"}
+{"level":"debug","message":"User ID found:","service":"food-delivery-api","timestamp":"2025-04-22 01:52:55","userId":"6806d8b87ade48ceebbbf2e5"}
+{"expiresAtCondition":{"$gt":"2025-04-21T23:52:55.229Z"},"level":"debug","message":"Querying VerificationToken with:","mobileNumber":"0657615331","service":"food-delivery-api","timestamp":"2025-04-22 01:52:55","token":"744125","userId":"6806d8b87ade48ceebbbf2e5"}
+{"level":"debug","message":"Verification FindOne Result:","service":"food-delivery-api","timestamp":"2025-04-22 01:52:55"}
+{"level":"warn","message":"VerificationToken lookup failed for query details logged above. Result was null.","service":"food-delivery-api","timestamp":"2025-04-22 01:52:55"}
+{"level":"debug","message":"POST /api/auth/verify-otp 400 - 363ms","service":"food-delivery-api","timestamp":"2025-04-22 01:52:55"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 01:55:40","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/verify-otp 400 - 2ms","service":"food-delivery-api","timestamp":"2025-04-22 01:55:40"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 02:02:24","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 973ms","service":"food-delivery-api","timestamp":"2025-04-22 02:02:25"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 02:02:35","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"--- Verifying OTP ---","service":"food-delivery-api","timestamp":"2025-04-22 02:02:35"}
+{"level":"debug","message":"User ID found:","service":"food-delivery-api","timestamp":"2025-04-22 02:02:35","userId":"6806d8b87ade48ceebbbf2e5"}
+{"expiresAtCondition":{"$gt":"2025-04-22T00:02:35.971Z"},"level":"debug","message":"Querying VerificationToken with:","mobileNumber":"0657615331","service":"food-delivery-api","timestamp":"2025-04-22 02:02:35","token":"769596","userId":"6806d8b87ade48ceebbbf2e5"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","attempts":"init","createdAt":"init","email":"init","expiresAt":"init","lastSent":"init","mobileNumber":"init","token":"init","userId":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"attempts":true,"createdAt":true,"email":true,"expiresAt":true,"lastSent":true,"mobileNumber":true,"token":true,"userId":true},"require":{}}},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"6806d8b97ade48ceebbbf2e7","attempts":0,"createdAt":"2025-04-21T23:46:01.004Z","email":"allforoneafo7@gmail.com","expiresAt":"2025-04-22T00:12:24.850Z","lastSent":"2025-04-22T00:02:24.963Z","mobileNumber":"0657615331","token":"769596","userId":"6806d8b87ade48ceebbbf2e5"},"level":"debug","message":"Verification FindOne Result:","service":"food-delivery-api","timestamp":"2025-04-22 02:02:36"}
+{"level":"debug","message":"Verification attempt incremented to: 1","service":"food-delivery-api","timestamp":"2025-04-22 02:02:36","verificationId":"6806d8b97ade48ceebbbf2e7"}
+{"level":"info","message":"OTP verification successful for user 6806d8b87ade48ceebbbf2e5","service":"food-delivery-api","timestamp":"2025-04-22 02:02:36"}
+{"level":"debug","message":"VerificationToken deleted successfully","service":"food-delivery-api","timestamp":"2025-04-22 02:02:36","verificationId":"6806d8b97ade48ceebbbf2e7"}
+{"level":"debug","message":"POST /api/auth/verify-otp 200 - 967ms","service":"food-delivery-api","timestamp":"2025-04-22 02:02:36"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/register","service":"food-delivery-api","timestamp":"2025-04-22 19:39:24","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"info","message":"Attempting to send OTP email to: 0657615331","service":"food-delivery-api","timestamp":"2025-04-22 19:39:24"}
+{"level":"error","message":"Error sending verification email: Error: address is invalid in 'to' 0","service":"food-delivery-api","stack":"Error: Error sending verification email: Error: address is invalid in 'to' 0\n    at sendVerificationEmail (file:///C:/back/services/mailtrap/emails.js:20:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async sendOTP (file:///C:/back/services/mailtrap/emailService.js:15:5)\n    at async register (file:///C:/back/controllers/auth.controller.js:513:19)","timestamp":"2025-04-22 19:39:25","to":"0657615331"}
+{"level":"warn","message":"SMS failed to send to 0657615331: \"Error sending verification email: Error: address is invalid in 'to' 0\"","service":"food-delivery-api","timestamp":"2025-04-22 19:39:25"}
+{"email":"idukepan@gmail.com","level":"info","message":"New user registered","mobileNumber":"0657615331","service":"food-delivery-api","timestamp":"2025-04-22 19:39:25","userId":"6807d44c7bc2591049da8db6"}
+{"level":"debug","message":"POST /api/auth/register 201 - 1098ms","service":"food-delivery-api","timestamp":"2025-04-22 19:39:25"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/register","service":"food-delivery-api","timestamp":"2025-04-22 19:44:14","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"info","message":"Attempting to send OTP email to: 0657615331","service":"food-delivery-api","timestamp":"2025-04-22 19:44:15"}
+{"level":"error","message":"Error sending verification email: Error: address is invalid in 'to' 0","service":"food-delivery-api","stack":"Error: Error sending verification email: Error: address is invalid in 'to' 0\n    at sendVerificationEmail (file:///C:/back/services/mailtrap/emails.js:20:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async sendOTP (file:///C:/back/services/mailtrap/emailService.js:15:5)\n    at async register (file:///C:/back/controllers/auth.controller.js:512:19)","timestamp":"2025-04-22 19:44:15","to":"0657615331"}
+{"level":"warn","message":"SMS failed to send to 0657615331: \"Error sending verification email: Error: address is invalid in 'to' 0\"","service":"food-delivery-api","timestamp":"2025-04-22 19:44:15"}
+{"email":"idukepan@gmail.com","level":"info","message":"New user registered","mobileNumber":"0657615331","service":"food-delivery-api","timestamp":"2025-04-22 19:44:15","userId":"6807d56efea1c13c44c8fefc"}
+{"level":"debug","message":"POST /api/auth/register 201 - 1110ms","service":"food-delivery-api","timestamp":"2025-04-22 19:44:15"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/register","service":"food-delivery-api","timestamp":"2025-04-22 19:46:05","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"info","message":"Attempting to send OTP email to: 0657615331","service":"food-delivery-api","timestamp":"2025-04-22 19:46:05"}
+{"level":"error","message":"Error sending verification email: Error: address is invalid in 'to' 0","service":"food-delivery-api","stack":"Error: Error sending verification email: Error: address is invalid in 'to' 0\n    at sendVerificationEmail (file:///C:/back/services/mailtrap/emails.js:20:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async sendOTP (file:///C:/back/services/mailtrap/emailService.js:15:5)\n    at async register (file:///C:/back/controllers/auth.controller.js:512:19)","timestamp":"2025-04-22 19:46:06","to":"0657615331"}
+{"level":"warn","message":"SMS failed to send to 0657615331: \"Error sending verification email: Error: address is invalid in 'to' 0\"","service":"food-delivery-api","timestamp":"2025-04-22 19:46:06"}
+{"email":"idukepan@gmail.com","level":"info","message":"New user registered","mobileNumber":"0657615331","service":"food-delivery-api","timestamp":"2025-04-22 19:46:06","userId":"6807d5dd2e298a5d61f119e4"}
+{"level":"debug","message":"POST /api/auth/register 201 - 1430ms","service":"food-delivery-api","timestamp":"2025-04-22 19:46:06"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/register","service":"food-delivery-api","timestamp":"2025-04-22 20:04:57","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/register 400 - 274ms","service":"food-delivery-api","timestamp":"2025-04-22 20:04:57"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 20:13:19","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 1342ms","service":"food-delivery-api","timestamp":"2025-04-22 20:13:20"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 20:13:34","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"--- Verifying OTP ---","service":"food-delivery-api","timestamp":"2025-04-22 20:13:34"}
+{"level":"debug","message":"User ID found:","service":"food-delivery-api","timestamp":"2025-04-22 20:13:34","userId":"6807d5dd2e298a5d61f119e4"}
+{"expiresAtCondition":{"$gt":"2025-04-22T18:13:34.644Z"},"level":"debug","message":"Querying VerificationToken with:","mobileNumber":"0657615331","service":"food-delivery-api","timestamp":"2025-04-22 20:13:34","token":"879047","userId":"6807d5dd2e298a5d61f119e4"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","attempts":"init","createdAt":"init","email":"init","expiresAt":"init","lastSent":"init","mobileNumber":"init","token":"init","userId":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"attempts":true,"createdAt":true,"email":true,"expiresAt":true,"lastSent":true,"mobileNumber":true,"token":true,"userId":true},"require":{}}},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"6807dc3f349821335021d5d7","attempts":0,"createdAt":"2025-04-22T18:13:19.722Z","email":"allforoneafo7@gmail.com","expiresAt":"2025-04-22T18:23:19.594Z","lastSent":"2025-04-22T18:13:19.721Z","mobileNumber":"0657615331","token":"879047","userId":"6807d5dd2e298a5d61f119e4"},"level":"debug","message":"Verification FindOne Result:","service":"food-delivery-api","timestamp":"2025-04-22 20:13:34"}
+{"level":"debug","message":"Verification attempt incremented to: 1","service":"food-delivery-api","timestamp":"2025-04-22 20:13:34","verificationId":"6807dc3f349821335021d5d7"}
+{"level":"info","message":"OTP verification successful for user 6807d5dd2e298a5d61f119e4","service":"food-delivery-api","timestamp":"2025-04-22 20:13:34"}
+{"level":"debug","message":"VerificationToken deleted successfully","service":"food-delivery-api","timestamp":"2025-04-22 20:13:35","verificationId":"6807dc3f349821335021d5d7"}
+{"level":"debug","message":"POST /api/auth/verify-otp 200 - 749ms","service":"food-delivery-api","timestamp":"2025-04-22 20:13:35"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/register","service":"food-delivery-api","timestamp":"2025-04-22 20:23:40","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/register 400 - 91ms","service":"food-delivery-api","timestamp":"2025-04-22 20:23:40"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/register","service":"food-delivery-api","timestamp":"2025-04-22 20:24:01","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"info","message":"Attempting to send OTP email to: 0657615331","service":"food-delivery-api","timestamp":"2025-04-22 20:24:01"}
+{"level":"error","message":"Error sending verification email: Error: address is invalid in 'to' 0","service":"food-delivery-api","stack":"Error: Error sending verification email: Error: address is invalid in 'to' 0\n    at sendVerificationEmail (file:///C:/back/services/mailtrap/emails.js:20:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async sendOTP (file:///C:/back/services/mailtrap/emailService.js:15:5)\n    at async register (file:///C:/back/controllers/auth.controller.js:512:19)","timestamp":"2025-04-22 20:24:02","to":"0657615331"}
+{"level":"warn","message":"SMS failed to send to 0657615331: \"Error sending verification email: Error: address is invalid in 'to' 0\"","service":"food-delivery-api","timestamp":"2025-04-22 20:24:02"}
+{"email":"idukepan@gmail.com","level":"info","message":"New user registered","mobileNumber":"0657615331","service":"food-delivery-api","timestamp":"2025-04-22 20:24:02","userId":"6807dec1ec2a89fae1f9a140"}
+{"level":"debug","message":"POST /api/auth/register 201 - 1169ms","service":"food-delivery-api","timestamp":"2025-04-22 20:24:02"}
+{"level":"warn","message":"Authentication attempt failed: Token missing","service":"food-delivery-api","timestamp":"2025-04-22 20:28:21"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 23:49:51","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"--- Verifying OTP ---","service":"food-delivery-api","timestamp":"2025-04-22 23:49:51"}
+{"level":"debug","message":"User ID found:","service":"food-delivery-api","timestamp":"2025-04-22 23:49:51","userId":"6807dec1ec2a89fae1f9a140"}
+{"expiresAtCondition":{"$gt":"2025-04-22T21:49:51.679Z"},"level":"debug","message":"Querying VerificationToken with:","mobileNumber":"0657615331","service":"food-delivery-api","timestamp":"2025-04-22 23:49:51","token":"879047","userId":"6807dec1ec2a89fae1f9a140"}
+{"level":"debug","message":"Verification FindOne Result:","service":"food-delivery-api","timestamp":"2025-04-22 23:49:51"}
+{"level":"warn","message":"VerificationToken lookup failed for query details logged above. Result was null.","service":"food-delivery-api","timestamp":"2025-04-22 23:49:51"}
+{"level":"debug","message":"POST /api/auth/verify-otp 400 - 159ms","service":"food-delivery-api","timestamp":"2025-04-22 23:49:51"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 23:49:56","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 1005ms","service":"food-delivery-api","timestamp":"2025-04-22 23:49:57"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 23:50:08","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"--- Verifying OTP ---","service":"food-delivery-api","timestamp":"2025-04-22 23:50:08"}
+{"level":"debug","message":"User ID found:","service":"food-delivery-api","timestamp":"2025-04-22 23:50:08","userId":"6807dec1ec2a89fae1f9a140"}
+{"expiresAtCondition":{"$gt":"2025-04-22T21:50:08.232Z"},"level":"debug","message":"Querying VerificationToken with:","mobileNumber":"0657615331","service":"food-delivery-api","timestamp":"2025-04-22 23:50:08","token":"591792","userId":"6807dec1ec2a89fae1f9a140"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","attempts":"init","createdAt":"init","email":"init","expiresAt":"init","lastSent":"init","mobileNumber":"init","token":"init","userId":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"attempts":true,"createdAt":true,"email":true,"expiresAt":true,"lastSent":true,"mobileNumber":true,"token":true,"userId":true},"require":{}}},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"68080f04349821335021d5d8","attempts":0,"createdAt":"2025-04-22T21:49:56.268Z","email":"allforoneafo7@gmail.com","expiresAt":"2025-04-22T21:59:56.081Z","lastSent":"2025-04-22T21:49:56.267Z","mobileNumber":"0657615331","token":"591792","userId":"6807dec1ec2a89fae1f9a140"},"level":"debug","message":"Verification FindOne Result:","service":"food-delivery-api","timestamp":"2025-04-22 23:50:08"}
+{"level":"debug","message":"Verification attempt incremented to: 1","service":"food-delivery-api","timestamp":"2025-04-22 23:50:08","verificationId":"68080f04349821335021d5d8"}
+{"level":"info","message":"OTP verification successful for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-22 23:50:08"}
+{"level":"debug","message":"VerificationToken deleted successfully","service":"food-delivery-api","timestamp":"2025-04-22 23:50:08","verificationId":"68080f04349821335021d5d8"}
+{"level":"debug","message":"POST /api/auth/verify-otp 200 - 774ms","service":"food-delivery-api","timestamp":"2025-04-22 23:50:08"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 23:51:55","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"--- Verifying OTP ---","service":"food-delivery-api","timestamp":"2025-04-22 23:51:55"}
+{"level":"debug","message":"User ID found:","service":"food-delivery-api","timestamp":"2025-04-22 23:51:55","userId":"6807dec1ec2a89fae1f9a140"}
+{"expiresAtCondition":{"$gt":"2025-04-22T21:51:55.986Z"},"level":"debug","message":"Querying VerificationToken with:","mobileNumber":"0657615331","service":"food-delivery-api","timestamp":"2025-04-22 23:51:55","token":"591792","userId":"6807dec1ec2a89fae1f9a140"}
+{"level":"debug","message":"Verification FindOne Result:","service":"food-delivery-api","timestamp":"2025-04-22 23:51:56"}
+{"level":"warn","message":"VerificationToken lookup failed for query details logged above. Result was null.","service":"food-delivery-api","timestamp":"2025-04-22 23:51:56"}
+{"level":"debug","message":"POST /api/auth/verify-otp 400 - 1216ms","service":"food-delivery-api","timestamp":"2025-04-22 23:51:56"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 23:52:00","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 1207ms","service":"food-delivery-api","timestamp":"2025-04-22 23:52:01"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 23:52:28","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"--- Verifying OTP ---","service":"food-delivery-api","timestamp":"2025-04-22 23:52:28"}
+{"level":"debug","message":"User ID found:","service":"food-delivery-api","timestamp":"2025-04-22 23:52:28","userId":"6807dec1ec2a89fae1f9a140"}
+{"expiresAtCondition":{"$gt":"2025-04-22T21:52:28.296Z"},"level":"debug","message":"Querying VerificationToken with:","mobileNumber":"0657615331","service":"food-delivery-api","timestamp":"2025-04-22 23:52:28","token":"154231","userId":"6807dec1ec2a89fae1f9a140"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","attempts":"init","createdAt":"init","email":"init","expiresAt":"init","lastSent":"init","mobileNumber":"init","token":"init","userId":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"attempts":true,"createdAt":true,"email":true,"expiresAt":true,"lastSent":true,"mobileNumber":true,"token":true,"userId":true},"require":{}}},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"68080f80349821335021d5d9","attempts":0,"createdAt":"2025-04-22T21:52:00.619Z","email":"allforoneafo7@gmail.com","expiresAt":"2025-04-22T22:02:00.428Z","lastSent":"2025-04-22T21:52:00.618Z","mobileNumber":"0657615331","token":"154231","userId":"6807dec1ec2a89fae1f9a140"},"level":"debug","message":"Verification FindOne Result:","service":"food-delivery-api","timestamp":"2025-04-22 23:52:28"}
+{"level":"debug","message":"Verification attempt incremented to: 1","service":"food-delivery-api","timestamp":"2025-04-22 23:52:28","verificationId":"68080f80349821335021d5d9"}
+{"level":"info","message":"OTP verification successful for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-22 23:52:28"}
+{"level":"debug","message":"VerificationToken deleted successfully","service":"food-delivery-api","timestamp":"2025-04-22 23:52:28","verificationId":"68080f80349821335021d5d9"}
+{"level":"debug","message":"POST /api/auth/verify-otp 200 - 788ms","service":"food-delivery-api","timestamp":"2025-04-22 23:52:29"}
+{"level":"warn","message":"Access token verification failed: jwt malformed","service":"food-delivery-api","timestamp":"2025-04-22 23:54:56"}
+{"level":"warn","message":"Authentication failed: Access token invalid (reason: jwt malformed)","service":"food-delivery-api","timestamp":"2025-04-22 23:54:56"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/send-otp","service":"food-delivery-api","timestamp":"2025-04-22 23:58:55","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"POST /api/auth/send-otp 200 - 786ms","service":"food-delivery-api","timestamp":"2025-04-22 23:58:56"}
+{"ip":"::1","level":"debug","message":"POST /api/auth/verify-otp","service":"food-delivery-api","timestamp":"2025-04-22 23:59:05","userAgent":"PostmanRuntime/7.43.3"}
+{"level":"debug","message":"--- Verifying OTP ---","service":"food-delivery-api","timestamp":"2025-04-22 23:59:05"}
+{"level":"debug","message":"User ID found:","service":"food-delivery-api","timestamp":"2025-04-22 23:59:05","userId":"6807dec1ec2a89fae1f9a140"}
+{"expiresAtCondition":{"$gt":"2025-04-22T21:59:05.388Z"},"level":"debug","message":"Querying VerificationToken with:","mobileNumber":"0657615331","service":"food-delivery-api","timestamp":"2025-04-22 23:59:05","token":"850325","userId":"6807dec1ec2a89fae1f9a140"}
+{"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","attempts":"init","createdAt":"init","email":"init","expiresAt":"init","lastSent":"init","mobileNumber":"init","token":"init","userId":"init"},"states":{"default":{},"init":{"__v":true,"_id":true,"attempts":true,"createdAt":true,"email":true,"expiresAt":true,"lastSent":true,"mobileNumber":true,"token":true,"userId":true},"require":{}}},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"6808111f349821335021d5da","attempts":0,"createdAt":"2025-04-22T21:58:55.549Z","email":"allforoneafo7@gmail.com","expiresAt":"2025-04-22T22:08:55.452Z","lastSent":"2025-04-22T21:58:55.548Z","mobileNumber":"0657615331","token":"850325","userId":"6807dec1ec2a89fae1f9a140"},"level":"debug","message":"Verification FindOne Result:","service":"food-delivery-api","timestamp":"2025-04-22 23:59:05"}
+{"level":"debug","message":"Verification attempt incremented to: 1","service":"food-delivery-api","timestamp":"2025-04-22 23:59:05","verificationId":"6808111f349821335021d5da"}
+{"level":"info","message":"OTP verification successful for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-22 23:59:05"}
+{"level":"debug","message":"VerificationToken deleted successfully","service":"food-delivery-api","timestamp":"2025-04-22 23:59:06","verificationId":"6808111f349821335021d5da"}
+{"level":"debug","message":"POST /api/auth/verify-otp 200 - 1162ms","service":"food-delivery-api","timestamp":"2025-04-22 23:59:06"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-22 23:59:23"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 00:01:40"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 00:04:16"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 00:07:29"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 00:53:18"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 01:05:47"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 01:09:25"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 01:12:48"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 01:28:52"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 01:35:31"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 01:40:00"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 01:41:47"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 01:45:28"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 01:47:32"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 14:54:58"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 14:55:49"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 14:56:40"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 14:57:58"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 14:58:34"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 14:59:57"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 15:01:16"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 17:04:19"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 17:10:00"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 17:21:36"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 17:26:10"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 17:29:41"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:12:31"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:15:27"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:17:00"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:18:27"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:19:54"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:22:37"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:25:14"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:27:17"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:31:00"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:32:54"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:34:32"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:35:55"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:37:39"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:39:21"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:40:57"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:42:37"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:44:54"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:45:54"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:47:23"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:49:26"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:51:42"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:53:37"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 18:59:03"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:00:24"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:03:08"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:13:31"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:19:30"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:20:03"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:21:23"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:21:49"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:22:44"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:24:07"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:24:29"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:29:12"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:30:10"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:34:00"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:35:05"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:37:57"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:38:04"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:38:45"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:41:04"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:42:40"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:43:07"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:45:22"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:46:34"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:46:55"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:47:42"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:50:27"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:53:30"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:56:20"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 19:58:24"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:00:00"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:04:33"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:06:38"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:07:37"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:08:08"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:10:38"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:11:25"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:12:03"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:13:10"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:13:57"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:14:53"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:15:48"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:16:26"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:16:54"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:17:34"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:18:23"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:20:57"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:21:49"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:23:14"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:24:32"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 20:25:21"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:34:30"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:36:06"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:40:05"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:44:00"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:48:54"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:49:53"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:50:45"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:54:50"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:55:23"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:55:51"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:56:22"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:57:03"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:57:30"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:58:10"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-23 23:59:43"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-24 00:56:18"}
+{"level":"info","message":"Access token valid for user 6807dec1ec2a89fae1f9a140","service":"food-delivery-api","timestamp":"2025-04-24 00:56:35"}
